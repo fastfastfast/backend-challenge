@@ -12,7 +12,6 @@ import (
 type listAllUserService struct{}
 
 func (s *listAllUserService) ListAllUser(c echo.Context, db *mongo.Collection) (*[]User, error) {
-
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
