@@ -1,7 +1,7 @@
 package main
 
 import (
-	authenticate "backend-challenge/service/Authenticate"
+	"backend-challenge/service/authenticate"
 	"backend-challenge/service/deletebyid"
 	"backend-challenge/service/fetchuserbyid"
 	"backend-challenge/service/insert"
